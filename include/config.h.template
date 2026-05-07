@@ -1,0 +1,20 @@
+#pragma once
+
+// ---------------------------------------------------------------------------
+// WeatherClock configuration – copy this file to config.h and fill in values.
+// config.h is listed in .gitignore and will not be committed.
+// ---------------------------------------------------------------------------
+
+// WiFi credentials
+static const char* WIFI_SSID        = "";
+static const char* WIFI_PASSWORD    = "";
+
+// OpenWeatherMap API key (https://openweathermap.org/api)
+static const char* OWM_API_KEY      = "";
+
+// Location
+static const char* OWM_CITY         = "";   // e.g. "London"
+static const char* OWM_COUNTRY_CODE = "";   // ISO 3166-1 alpha-2, e.g. "GB"
+
+// Units: "metric" (°C) | "imperial" (°F) | "standard" (K)
+static const char* OWM_UNITS        = "metric";
